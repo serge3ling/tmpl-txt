@@ -1,0 +1,4 @@
+  <GCCovByClassBusiness_Ext public-id="${id_autoinc_13}">
+    <ClassOfBusiness>CAN_GL</ClassOfBusiness>
+    <CoveragePatternCode>${code}</CoveragePatternCode>
+  </GCCovByClassBusiness_Ext>

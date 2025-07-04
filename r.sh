@@ -1,0 +1,1 @@
+/c/files/prg/jdk-19/bin/java -cp . App

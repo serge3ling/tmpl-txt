@@ -1,0 +1,3 @@
+code | name
+SJICGLAbusiveActLiability | SJIC GL-AbusiveActLiability
+SJICGLAccidentalProductsRecall | SJIC GL-AccidentalProductsRecall

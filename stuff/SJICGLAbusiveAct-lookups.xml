@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<import>
+  <CoverageLookup public-id="zltg44fisd7nfb6ee023p845mvb">
+    <Availability>Available</Availability>
+    <CoveragePatternCode>SJICGLAbusiveAct</CoveragePatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CoverageLookup>
+  <CovTermLookup public-id="zjmjec7p75mkp8lthhlvar2p2q8">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>z6tg0k8ie18m1079k79uq2dfv1a</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="zuaiqb947f7gj67i6ebolcukla9">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>z04himgvoc9eh01jpl04buvcs49</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="za9hkceckdf4kai6ja3iajji099">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>zb6g0nf3u36fpar0rv4u1pf7qpa</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+</import>

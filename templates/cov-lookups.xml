@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<import>
+  <CoverageLookup public-id="${id_autoinc_9}">
+    <Availability>Available</Availability>
+    <CoveragePatternCode>${code}</CoveragePatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CoverageLookup>
+  <CovTermLookup public-id="${id_autoinc_10}">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>${id_autoinc_0}</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="${id_autoinc_11}">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>${id_autoinc_4}</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+  <CovTermLookup public-id="${id_autoinc_12}">
+    <Availability>Available</Availability>
+    <CovTermPatternCode>${id_autoinc_8}</CovTermPatternCode>
+    <EndEffectiveDate/>
+    <JobType/>
+    <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
+    <StartEffectiveDate>2001-01-01 00:00:00.000</StartEffectiveDate>
+    <State/>
+    <UWCompanyCode/>
+  </CovTermLookup>
+</import>
