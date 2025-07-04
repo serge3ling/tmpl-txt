@@ -14,57 +14,57 @@
   <AvailabilityScript><![CDATA[return GCAgreementLine_Ext.GCLine.covAvailForCanadaGL("${code}")]]></AvailabilityScript>
   <CovTerms>
     <DirectCovTermPattern
-      codeIdentifier="${code}SmL"
+      codeIdentifier="${code}CovSumInsured"
       coverageColumn="DirectTerm1"
       lookupTableName="GCAgreementLineCov_ExtTerm"
       priority="100"
-      public-id="${id_autoinc_0}"
+      public-id="${code}CovSumInsured"
       required="false"
       valueType="money">
       <LimitsSet>
         <CovTermLimits
-          codeIdentifier="${id_autoinc_1}"
+          codeIdentifier="${id_autoinc_0}"
           currency="eur"
+          public-id="${id_autoinc_0}"/>
+        <CovTermLimits
+          codeIdentifier="${id_autoinc_1}"
+          currency="usd"
           public-id="${id_autoinc_1}"/>
         <CovTermLimits
           codeIdentifier="${id_autoinc_2}"
-          currency="usd"
-          public-id="${id_autoinc_2}"/>
-        <CovTermLimits
-          codeIdentifier="${id_autoinc_3}"
           currency="gbp"
-          public-id="${id_autoinc_3}"/>
+          public-id="${id_autoinc_2}"/>
       </LimitsSet>
     </DirectCovTermPattern>
     <DirectCovTermPattern
-      codeIdentifier="${code}Exc"
+      codeIdentifier="${code}CovExcess"
       coverageColumn="DirectTerm2"
       lookupTableName="GCAgreementLineCov_ExtTerm"
       priority="200"
-      public-id="${id_autoinc_4}"
+      public-id="${code}CovExcess"
       required="false"
       valueType="money">
       <LimitsSet>
         <CovTermLimits
-          codeIdentifier="${id_autoinc_5}"
+          codeIdentifier="${id_autoinc_3}"
           currency="eur"
-          public-id="${id_autoinc_5}"/>
+          public-id="${id_autoinc_3}"/>
         <CovTermLimits
-          codeIdentifier="${id_autoinc_6}"
+          codeIdentifier="${id_autoinc_4}"
           currency="usd"
-          public-id="${id_autoinc_6}"/>
+          public-id="${id_autoinc_4}"/>
         <CovTermLimits
-          codeIdentifier="${id_autoinc_7}"
+          codeIdentifier="${id_autoinc_5}"
           currency="gbp"
-          public-id="${id_autoinc_7}"/>
+          public-id="${id_autoinc_5}"/>
       </LimitsSet>
     </DirectCovTermPattern>
     <DirectCovTermPattern
-      codeIdentifier="${code}TcR"
+      codeIdentifier="${code}CovTechnicalRate"
       coverageColumn="DirectTerm3"
       lookupTableName="GCAgreementLineCov_ExtTerm"
       priority="300"
-      public-id="${id_autoinc_8}"
+      public-id="${code}CovTechnicalRate"
       required="false"
       valueType="count">
       <LimitsSet/>

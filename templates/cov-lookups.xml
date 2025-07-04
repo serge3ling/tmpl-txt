@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <import>
-  <CoverageLookup public-id="${id_autoinc_9}">
+  <CoverageLookup public-id="${id_autoinc_6}">
     <Availability>Available</Availability>
     <CoveragePatternCode>${code}</CoveragePatternCode>
     <EndEffectiveDate/>
@@ -10,9 +10,9 @@
     <State/>
     <UWCompanyCode/>
   </CoverageLookup>
-  <CovTermLookup public-id="${id_autoinc_10}">
+  <CovTermLookup public-id="${id_autoinc_7}">
     <Availability>Available</Availability>
-    <CovTermPatternCode>${id_autoinc_0}</CovTermPatternCode>
+    <CovTermPatternCode>${code}CovSumInsured</CovTermPatternCode>
     <EndEffectiveDate/>
     <JobType/>
     <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
@@ -20,9 +20,9 @@
     <State/>
     <UWCompanyCode/>
   </CovTermLookup>
-  <CovTermLookup public-id="${id_autoinc_11}">
+  <CovTermLookup public-id="${id_autoinc_8}">
     <Availability>Available</Availability>
-    <CovTermPatternCode>${id_autoinc_4}</CovTermPatternCode>
+    <CovTermPatternCode>${code}CovExcess</CovTermPatternCode>
     <EndEffectiveDate/>
     <JobType/>
     <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
@@ -30,9 +30,9 @@
     <State/>
     <UWCompanyCode/>
   </CovTermLookup>
-  <CovTermLookup public-id="${id_autoinc_12}">
+  <CovTermLookup public-id="${id_autoinc_9}">
     <Availability>Available</Availability>
-    <CovTermPatternCode>${id_autoinc_8}</CovTermPatternCode>
+    <CovTermPatternCode>${code}CovTechnicalRate</CovTermPatternCode>
     <EndEffectiveDate/>
     <JobType/>
     <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
