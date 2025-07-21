@@ -1,3 +1,5 @@
-code | name
-SJICGLAbusiveActLiability | SJIC GL-AbusiveActLiability
-SJICGLAccidentalProductsRecall | SJIC GL-AccidentalProductsRecall
+code | name | clsOfBiz
+SJICGLAbusiveActLiability | Abusive Act Liability | CAN_GL
+SJICGLAccidentalProductsRecall | Accidental Products Recall | CAN_GL
+SJICEXOtherLiability | Other Liability | EXL_UML
+SJICEXOwnedVehicle | Owned Vehicle | EXL_UML

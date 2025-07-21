@@ -8,6 +8,12 @@ public class Tests {
     IdIncTest idIncTest = new IdIncTest();
     idIncTest.testAll();
 
+    TemplateTest templateTest = new TemplateTest();
+    templateTest.testAll();
+
+    TemplatesTest templatesTest = new TemplatesTest();
+    templatesTest.testAll();
+
     try {
       LinesWrapTest linesTest = new LinesWrapTest();
       linesTest.testAll();

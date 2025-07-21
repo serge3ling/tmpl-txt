@@ -1,14 +1,15 @@
 public class App {
   public static void main(String[] args) throws Exception {
-    System.out.println("make-covs App started.");
+    String appName = "Template Text App";
+    System.out.println(appName + " started.");
 
     OverallWriter writer =
         (args.length > 0) ?
         new OverallWriter(args[0]) :
-        new OverallWriter("C:/files/docs/tasks/2025/595994-product-model/self-made");
+        new OverallWriter(new Cnf().trgDir());
     
     writer.write();
 
-    System.out.println("make-covs App done.");
+    System.out.println(appName + " done.");
   }
 }

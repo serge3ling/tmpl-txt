@@ -36,16 +36,8 @@ public class Cnf {
     }
   }
 
-  public String covSrc() throws Exception {
-    return readNeededKey("cov-src");
-  }
-
-  public String filenameRegex() throws Exception {
-    return readNeededKey("filename-regex");
-  }
-
-  public String covTrg() throws Exception {
-    return readNeededKey("cov-trg");
+  public String trgDir() throws Exception {
+    return readNeededKey("trg-dir");
   }
 
   private String readNeededKey(String key) throws Exception {

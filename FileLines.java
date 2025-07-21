@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FileLines {
+public class FileLines implements LinesRead {
   private final String filename;
   private final File file;
 
@@ -13,6 +13,7 @@ public class FileLines {
     this.file = new File(filename);
   }
 
+  @Override
   public List<String> read() throws Exception {
     if (!file.exists()) {
       throw new Exception("File \"" + filename + "\" is not there.");

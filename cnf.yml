@@ -1,3 +1,1 @@
-cov-src: C:/gw/pc2/modules/configuration/config/resources/productmodel/policylinepatterns/GCLine/coveragepatterns
-filename-regex: ^SJIC.*\.xml(?<!-lookups\.xml)
-cov-trg: made
+trg-dir: made
