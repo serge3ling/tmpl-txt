@@ -44,30 +44,6 @@ public class OverallWriter {
           linesFile.overwrite(remadeLines);
         }
       }
-
-      /*FileLines covFileLines = new FileLines(TEMPLATE_DIR + "/cov.xml");
-      LinesWrap covLinesWrap = new LinesWrap(lineWrap, covFileLines.read());
-      List<String> covRemade = covLinesWrap.remake();
-      LinesFile covLinesFile = new LinesFile(dir + "/" + tagMap.get("code") + ".xml");
-      covLinesFile.overwrite(covRemade);
-
-      FileLines lkpFileLines = new FileLines(TEMPLATE_DIR + "/cov-lookups.xml");
-      LinesWrap lkpLinesWrap = new LinesWrap(lineWrap, lkpFileLines.read());
-      List<String> lkpRemade = lkpLinesWrap.remake();
-      LinesFile lkpLinesFile = new LinesFile(dir + "/" + tagMap.get("code") + "-lookups.xml");
-      lkpLinesFile.overwrite(lkpRemade);
-
-      FileLines class2CodeFileLines = new FileLines(TEMPLATE_DIR + "/gc_class_coverage_codes.xml");
-      LinesWrap class2CodeLinesWrap = new LinesWrap(lineWrap, class2CodeFileLines.read());
-      List<String> class2CodeRemade = class2CodeLinesWrap.remake();
-      LinesFile class2CodeLinesFile = new LinesFile(dir + "/gc_class_coverage_codes.xml");
-      class2CodeLinesFile.writeTail(class2CodeRemade);
-
-      FileLines displayFileLines = new FileLines(TEMPLATE_DIR + "/productmodel.display.properties");
-      LinesWrap displayLinesWrap = new LinesWrap(lineWrap, displayFileLines.read());
-      List<String> displayRemade = displayLinesWrap.remake();
-      LinesFile displayLinesFile = new LinesFile(dir + "/productmodel.display.properties");
-      displayLinesFile.writeTail(displayRemade);*/
     }
   }
 }
