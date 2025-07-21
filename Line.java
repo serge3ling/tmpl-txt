@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Line {
-  private final IdGet idGet;
+  private final List<IdGet> idGets;
   private final ReplaceCommon replace;
   private final Map<String, String> tagMap;
   private final Map<String, String> idMap = new HashMap<>();
 
-  public Line(IdGet idGet, ReplaceCommon replace, Map<String, String> tagMap) {
-    this.idGet = idGet;
+  public Line(List<IdGet> idGets, ReplaceCommon replace, Map<String, String> tagMap) {
+    this.idGets = idGets;
     this.replace = replace;
     this.tagMap = tagMap;
   }
@@ -34,8 +34,23 @@ public class Line {
     String idCut = chopped.substring(0, ixEnd);
 
     if (!idMap.containsKey(idCut)) {
-      idMap.put(idCut, idGet.next());
+      idMap.put(idCut, nextFor(idCut));
     }
+  }
+
+  private String nextFor(String idCut) throws Exception {
+    int idGetNum = 0;
+    String[] split = idCut.split("_");
+
+    if (split.length >= 2) {
+      try {
+        idGetNum = Integer.parseInt(split[0]);
+      } catch (Exception ex) {
+        // skip
+      }
+    }
+
+    return idGets.get(idGetNum).next();
   }
 
   public String replaceInOneLine(String line) {

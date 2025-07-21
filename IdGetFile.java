@@ -4,9 +4,19 @@ import java.io.FileReader;
 import java.io.PrintWriter;
 
 public class IdGetFile implements IdGet {
-  private final String filename = "id.txt";
-  private final File file = new File(filename);
-  private final IdInc idInc = new IdInc(4);
+  private final String filename;
+  private final File file;
+  private final IdInc idInc;
+
+  public IdGetFile() {
+    this("id.txt", new IdInc(4));
+  }
+
+  public IdGetFile(String filename, IdInc idInc) {
+    this.filename = filename;
+    this.file = new File(filename);
+    this.idInc = idInc;
+  }
 
   public String next() throws Exception {
     String id = readId();

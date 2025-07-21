@@ -26,7 +26,9 @@ public class LinesWrapTest {
 
     Map<String, String> tagMap = new HashMap<>();
     tagMap.put("code", "CovCode");
-    Line lineWrap = new Line(new IdGetStub(), new Replace(), tagMap);
+    List<IdGet> idGets = new ArrayList<>();
+    idGets.add(new IdGetStub());
+    Line lineWrap = new Line(idGets, new Replace(), tagMap);
     LinesWrap lns = new LinesWrap(lineWrap, lineList);
     List<String> actual = lns.remake();
 
@@ -42,7 +44,9 @@ public class LinesWrapTest {
     String expectedId2 = idGetForExpected.next();
     String expectedId3 = idGetForExpected.next();
 
-    Line theOnlyLineWrap = new Line(new IdGetStub(), new Replace(), tagMap);
+    List<IdGet> idGets = new ArrayList<>();
+    idGets.add(new IdGetStub());
+    Line theOnlyLineWrap = new Line(idGets, new Replace(), tagMap);
 
     List<String> lineList1 = new ArrayList<>();
     List<String> expected1 = new ArrayList<>();
