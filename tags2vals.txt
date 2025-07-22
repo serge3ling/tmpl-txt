@@ -1,5 +1,5 @@
 code | name | clsOfBiz
-SJICGLAbusiveActLiability | Abusive Act Liability | CAN_GL
-SJICGLAccidentalProductsRecall | Accidental Products Recall | CAN_GL
-SJICEXOtherLiability | Other Liability | EXL_UML
-SJICEXOwnedVehicle | Owned Vehicle | EXL_UML
+SJICGLAbusiveActLiabilityCov | Abusive Act Liability | CAN_GL
+SJICGLAccidentalProductsRecallCov | Accidental Products Recall | CAN_GL
+SJICEXOtherLiabilityCov | Other Liability | EXL_UML
+SJICEXOwnedVehicleCov | Owned Vehicle | EXL_UML

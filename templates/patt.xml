@@ -14,11 +14,11 @@
   <AvailabilityScript><![CDATA[return GCAgreementLine_Ext.GCLine.covAvailForCanadaGL("${code}")]]></AvailabilityScript>
   <CovTerms>
     <DirectCovTermPattern
-      codeIdentifier="${code}CovSumInsured"
+      codeIdentifier="${code}SumInsured"
       coverageColumn="DirectTerm1"
       lookupTableName="GCAgreementLineCov_ExtTerm"
       priority="100"
-      public-id="${code}CovSumInsured"
+      public-id="${code}SumInsured"
       required="false"
       valueType="money">
       <LimitsSet>
@@ -37,11 +37,11 @@
       </LimitsSet>
     </DirectCovTermPattern>
     <DirectCovTermPattern
-      codeIdentifier="${code}CovExcess"
+      codeIdentifier="${code}Excess"
       coverageColumn="DirectTerm2"
       lookupTableName="GCAgreementLineCov_ExtTerm"
       priority="200"
-      public-id="${code}CovExcess"
+      public-id="${code}Excess"
       required="false"
       valueType="money">
       <LimitsSet>
@@ -60,11 +60,11 @@
       </LimitsSet>
     </DirectCovTermPattern>
     <DirectCovTermPattern
-      codeIdentifier="${code}CovTechnicalRate"
+      codeIdentifier="${code}TechnicalRate"
       coverageColumn="DirectTerm3"
       lookupTableName="GCAgreementLineCov_ExtTerm"
       priority="300"
-      public-id="${code}CovTechnicalRate"
+      public-id="${code}TechnicalRate"
       required="false"
       valueType="count">
       <LimitsSet/>

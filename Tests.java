@@ -8,6 +8,9 @@ public class Tests {
     IdIncTest idIncTest = new IdIncTest();
     idIncTest.testAll();
 
+    IdIncDigitTest idIncDigitTest = new IdIncDigitTest();
+    idIncDigitTest.testAll();
+
     TemplateTest templateTest = new TemplateTest();
     templateTest.testAll();
 

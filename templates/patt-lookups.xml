@@ -12,7 +12,7 @@
   </CoverageLookup>
   <CovTermLookup public-id="${id_autoinc_7}">
     <Availability>Available</Availability>
-    <CovTermPatternCode>${code}CovSumInsured</CovTermPatternCode>
+    <CovTermPatternCode>${code}SumInsured</CovTermPatternCode>
     <EndEffectiveDate/>
     <JobType/>
     <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
@@ -22,7 +22,7 @@
   </CovTermLookup>
   <CovTermLookup public-id="${id_autoinc_8}">
     <Availability>Available</Availability>
-    <CovTermPatternCode>${code}CovExcess</CovTermPatternCode>
+    <CovTermPatternCode>${code}Excess</CovTermPatternCode>
     <EndEffectiveDate/>
     <JobType/>
     <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>
@@ -32,7 +32,7 @@
   </CovTermLookup>
   <CovTermLookup public-id="${id_autoinc_9}">
     <Availability>Available</Availability>
-    <CovTermPatternCode>${code}CovTechnicalRate</CovTermPatternCode>
+    <CovTermPatternCode>${code}TechnicalRate</CovTermPatternCode>
     <EndEffectiveDate/>
     <JobType/>
     <PolicyLinePatternCode>GCLine</PolicyLinePatternCode>

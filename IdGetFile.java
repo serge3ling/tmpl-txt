@@ -6,21 +6,21 @@ import java.io.PrintWriter;
 public class IdGetFile implements IdGet {
   private final String filename;
   private final File file;
-  private final IdInc idInc;
+  private final IdIncCommon idIncCommon;
 
   public IdGetFile() {
     this("id.txt", new IdInc(4));
   }
 
-  public IdGetFile(String filename, IdInc idInc) {
+  public IdGetFile(String filename, IdIncCommon idIncCommon) {
     this.filename = filename;
     this.file = new File(filename);
-    this.idInc = idInc;
+    this.idIncCommon = idIncCommon;
   }
 
   public String next() throws Exception {
     String id = readId();
-    String nextId = idInc.next(id);
+    String nextId = idIncCommon.next(id);
     saveId(nextId);
     return nextId;
   }

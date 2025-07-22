@@ -1,5 +1,5 @@
-public class IdInc extends IdIncCommon {
-  public IdInc(int modifiableTailLength) {
+public class IdIncDigit extends IdIncCommon {
+  public IdIncDigit(int modifiableTailLength) {
     super(modifiableTailLength);
   }
 
@@ -8,10 +8,6 @@ public class IdInc extends IdIncCommon {
     char rtn = (char)(c + 1);
 
     if (c == '9') {
-      rtn = 'a';
-    }
-
-    if (c == 'z') {
       rtn = '0';
     }
 
