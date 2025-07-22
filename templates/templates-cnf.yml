@@ -1,4 +1,4 @@
-cov.xml: name=${code}.xml, write=over
-cov-lookups.xml: name=${code}-lookups.xml, write=over
+patt.xml: name=${code}.xml, write=over
+patt-lookups.xml: name=${code}-lookups.xml, write=over
 gc_class_coverage_codes.xml: write=tail
 productmodel.display.properties: write=tail
