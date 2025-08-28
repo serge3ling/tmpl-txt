@@ -52,7 +52,7 @@ public class Tags2Vals {
     for (int i = 1; i < lines.size(); i++) {
       String trimmed = lines.get(i);
 
-      if (trimmed.isEmpty()) {
+      if (trimmed.isEmpty() || trimmed.startsWith("-- ")) {
         continue;
       }
 
